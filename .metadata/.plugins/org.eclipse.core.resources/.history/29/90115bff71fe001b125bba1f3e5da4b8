@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- 
+	html 기본 구조
+	<html>
+		<head>
+			<meta charset = "utf-8">
+			<title>문서의 제목</title>
+		</head>
+		<body>
+			문서의 내용
+		</body?
+	</html>
+ -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>html 연습</title>
+</head>
+<body bgcolor="purple" text="white">
+	html 기본 연습!!!<br><font face="바탕" size="2" color="yellow">자바스크립트</font><h1>반갑습니다....</h1>
+	<h2>반갑습니다....</h2><h3>반갑습니다....</h3><h4>반갑습니다....</h4><h5>반갑습니다....</h5><h6>반갑습니다....</h6>
+	<p align="center">문단태그</p>
+	<ul type="circle"><!-- Unordered List -->
+		<li>자동차</li>
+		<li>트럭</li>
+		<li>비행기</li>
+	</ul>
+</body>
+</html>
