@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS_test</title>
+</head>
+<body>
+	<!-- CSS (Cascading Style Sheet) 사용시 장점
+		- 코드의 관리나 수정이 용이함
+		- 웹페이지 로딩 속도가 빨라짐
+		- 웹페이지를 제작하는 시간을 줄일 수 있음
+	 -->
+ 	<!-- 1.인라인 스타일 시트 -->
+ 	<p style="color:red">인라인 스타일 시트</p>
+ 	<!-- 2.내부 스타일 시트 -->
+ 	<!-- 3.외부 스타일 시트 -->
+ 
+</body>
+</html>

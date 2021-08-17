@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<dl> <!-- Dictionary List -->
+		<dt><b>JSP</b></dt>
+		<dd>JAVA SERVER PAGE</dd>
+		<dt><strong>HTML</strong></dt>
+		<dd>Hyper Text Markup Language</dd>
+		<dt>강아지</dt>
+		<dd><img src="img/1.PNG" width="100" height="100" border="2"></dd>
+	</dl>
+	
+	<!-- <a> 링크를 걸때 사용하는 태그 : 특정 페이지로 이동할 수 있다. -->
+	<dt><b><a href="html01.htm">html 01 문서</a></b></dt>
+	<dd>html의 기본 구조</dd>
+</body>
+</html>
