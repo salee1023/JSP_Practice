@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습05</title>
+<script>
+	function gugudan(x) {
+		for (i = 1; i <= 9; i++){
+			document.writeln(x+"*"+i+"="+x*i+"<br>");
+		}
+	}
+</script>
+</head>
+<body>
+구구단 출력
+<script>
+	var aa = prompt("원하는 구구단은 몇단인가요?<br>", "");
+	gugudan(aa);
+</script>
+</body>
+</html>

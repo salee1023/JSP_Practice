@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습</title>
+<script type="text/javaxript">
+	//window.alert("Hello JavaScript!!");
+</script>
+</head>
+<body>
+	<script>
+		var x, y;
+		x = 10;
+		y = 20;
+		
+		alert(a+b);
+	</script>
+</body>
+</html>

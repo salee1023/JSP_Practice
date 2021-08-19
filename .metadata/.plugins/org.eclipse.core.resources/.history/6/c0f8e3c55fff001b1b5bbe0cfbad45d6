@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=" UTF-8">
+<title>Javascript 연습03</title>
+<script>
+	function info() {
+		var jumin = prompt("주민번호 형식 : 961023-1112222 : ", "");
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습06</title>
+<script>
+	function event_test() {
+		alert("버튼이 클릭되었습니다.");
+	}
+</script>
+</head>
+<body>
+	<input type="button" value="대화상자 열기" onclick="event_test()">
+</body>
+</html>

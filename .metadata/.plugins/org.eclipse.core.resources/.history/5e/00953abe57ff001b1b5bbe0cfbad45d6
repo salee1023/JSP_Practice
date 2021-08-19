@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습</title>
+<script>
+	window.alert("Hello JavaScript!!");
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습02</title>
+<script>
+	aa = prompt("당신의 이름을 입력하세요");
+	document.write("당신의 이름은 "+a+"입니다.");
+</script>
+</head>
+<body>
+
+</body>
+</html>

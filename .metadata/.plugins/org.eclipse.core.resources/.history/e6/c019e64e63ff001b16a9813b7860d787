@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습06</title>
+<script>
+	/*
+	function event_test() {
+		alert("버튼이 클릭되었습니다.");
+	}
+	*/
+	
+	function load_msg() {
+		alert("홈페이지에 오신것을 환영합니다");
+	}
+</script>
+</head>
+<body onload="load_msg()">
+	Homepage
+	<!-- 
+	<input type="button" value="대화상자 열기" onclick="event_test()"> 
+	-->
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습</title>
+<script type="text/javaxript">
+	//window.alert("Hello JavaScript!!");
+</script>
+</head>
+<body>
+	<script>
+	/*
+		var x, y;
+		x = "Hi ";
+		y = "JavaScript!";
+		alert(x+y);
+	*/
+	
+	//	document.write("Hello JavaScript!! <br> Hi");
+		
+		var a;
+		a = "http://www.naver.com"
+		location.href = a;
+	</script>
+</body>
+</html>

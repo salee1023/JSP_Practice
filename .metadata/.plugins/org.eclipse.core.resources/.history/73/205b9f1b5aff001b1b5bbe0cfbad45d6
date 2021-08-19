@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습03</title>
+<script>
+	var aa = confirm("현재 날씨가 덥나요?");
+</script>
+</head>
+<body>
+
+</body>
+</html>

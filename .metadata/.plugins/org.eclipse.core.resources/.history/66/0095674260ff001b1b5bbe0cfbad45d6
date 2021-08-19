@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=" UTF-8">
+<title>Javascript 연습03</title>
+
+</head>
+<body>
+<script>
+	var jumin = prompt("주민번호 형식 : 961023-1112222 : ", "");
+	var len = jumin.length;
+	if (len != 14 || jumin.charAt(6)!='-') {
+		alert("주민번호 형식이 잘못되었습니다.");
+	}
+</script>
+</body>
+</html>

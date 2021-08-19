@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript 연습06</title>
+<script>
+	// ID 값을 이용해서 element를 얻어오는 방법
+	// document.getElementById('ID값')
+	function btn_onClick() {
+		var aa = document.getElementById('');
+	}
+</script>
+</head>
+<body>
+	<form name= "test_form">
+		<label>이름 : 
+			<input type="text" id="name" name="name" size="20">
+		</label>
+	</form>
+</body>
+</html>
