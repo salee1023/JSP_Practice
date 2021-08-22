@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -23,7 +24,6 @@ import javax.servlet.http.HttpServletResponse;
 // 2. 초기화 파라미터를 Servlet 파일에 직접 기술하는 방법도 있다.
 
 // web.xml에 초기화 파라미터 기술하기
-
 // Servlet 클래스 작성
 //    |
 // web.xml에 초기화 파라미터를 입력
@@ -31,7 +31,14 @@ import javax.servlet.http.HttpServletResponse;
 // ServletConfig의 메소드를 이용해서 데이터를 사용(접근)한다.
 // ServletConfig의 getInitParameter() 메소드를 이용해서 접근할 수 있다.
 
-@WebServlet("/InitS")
+// Servlet 파일에 초기화 파라미터를 직접 기술하기
+// Servlet 클래스 작성
+//    |
+// @WebInitParam 에 초기화 파라미터를 작성
+//    |
+// ServletConfig 메소드를 이용한다.
+
+@WebServlet(urlPatterns = {"/InitS"}, initParams= {@WebInitParam(name="id", value="test11"),@WebInitParam(name="pw", value="1000"),@WebInitParam(name="local", value="busan") })
 public class InitServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

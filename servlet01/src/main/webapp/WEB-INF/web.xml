@@ -10,6 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+<!--   
   <servlet>
   	<servlet-name>ServletInit</servlet-name>
   	<servlet-class>com.test.ex.InitServlet</servlet-class>
@@ -32,4 +33,24 @@
 	<servlet-name>ServletInit</servlet-name>
 	<url-pattern>/SI</url-pattern>
 </servlet-mapping>
+ -->
+ 
+	<context-param>
+		<param-name>id</param-name>
+  		<param-value>test33</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+  		<param-value>1234</param-value>
+	</context-param>
+	<context-param>
+		<param-name>local</param-name>
+  		<param-value>kwangju</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>com.test.ex.ContextL</listener-class>
+	</listener>
+	
+	
 </web-app>
