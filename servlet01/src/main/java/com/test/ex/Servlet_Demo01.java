@@ -36,6 +36,31 @@ import javax.servlet.http.HttpServletResponse;
  * 
  * throws 절에 있는 ServletException과 IOException은 생략이 가능, 다른 exception을 추가 할 수 없음.
  */
+
+/** 서블릿의 동작 순서
+ * 
+ * 웹브라우저 --> 웹서버 --> 웹어플리케이션 서버 --> 서블릿 컨테이너
+ * 										   .스레드 생성
+ * 										   .servlet 객체 생성
+ * 
+ * Servlet 기술 : CGI를 대신할 수 있는 Java 기술 (기존의 CGI의 차이점)
+ * 
+ * 	1) CGI> 로딩과 초기화 작업을 진행하기 때문에 서버에 대한 오버헤드가 크다.
+ *	   서블릿> 한번 메모리에 로딩되어 수행되면 작업이 모두 수행되어 끝나더라 메모리에서 해제 되지 않는다(재활용)
+ *			 계속적인 수행 요청이 들어와도 메모리 로딩이나 초기화를 처리하지 않는다.
+ *			 모든 서블릿은 한번만 메모리에 로딩 되어진다.
+ *	2) 특정 웹서버에 비의존적이다. 
+ *	   Java 언어로 구현되는 프로그램이기 때문에 플랫폼(운영체제)과는 무관한 실행 파일을 만들 수 있다.
+ *	   기존의 CGI는 성능향상을 위해서 추가적인 API가 필요했던 것에 비해, 서블릿은 Servlet API를 활용해서 개발하면 된다. 즉, Servlet 엔진만 활용해도 된다.
+ *
+ *  3) 서블릿은 멀티스레드로 동작한다.
+ *     Servlet은 CGI처럼 웹브라우저에서 요청하는 각각의 프로세스를 생성하지 않는다.
+ *     각 요청에 대해서 스레드로 동작한다.
+ *
+ * 	Servlet 생명주기 (lifecycle)
+ * 	Servlet 객체생성 --> init() 호출 --> service(), doGet(), doPost() 호출 --> destroy() 호출
+ * 		최초 한번			최초 한번                 요청 시 매번                    마지막 한번
+ */
 @WebServlet("/Sev01")
 public class Servlet_Demo01 extends HttpServlet {
 	private static final long serialVersionUID = 1L;

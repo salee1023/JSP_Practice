@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Sat Aug 21 23:51:32 KST 2021
+#Sun Aug 22 15:39:11 KST 2021
 org.eclipse.jst.jee.server\:jsp_ex01=C\:\\Tomcat8\\wtpwebapps\\jsp_ex01
 org.eclipse.jst.jee.server\:hello=C\:\\Tomcat8\\wtpwebapps\\hello
 org.eclipse.jst.jee.server\:servlet01=C\:\\Tomcat8\\wtpwebapps\\servlet01
